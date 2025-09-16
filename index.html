@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan Soni - Security & Compliance Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .cyber-grid {
+            background-image: 
+                linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+        
+        .matrix-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b  50%, #334155 100%);
+        }
+        
+        .glow-border {
+            box-shadow: 0 0 30px rgba(6, 182, 212, 0.3);
+            border: 2px solid rgba(6, 182, 212, 0.5);
+        }
+        
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            transform: translateY(-3px) scale(1.1);
+        }
+        
+        .floating {
+            animation: floating 4s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(2deg); }
+        }
+        
+        .typewriter {
+            overflow: hidden;
+            border-right: 2px solid #06b6d4;
+            white-space: nowrap;
+            animation: typing 4s steps(50, end), blink-caret 0.75s step-end infinite;
+        }
+        
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #06b6d4; }
+        }
+    </style>
+</head>
+<body class="matrix-bg min-h-screen cyber-grid flex items-center justify-center p-8">
+    <!-- Floating Security Icons -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none">
+        <i class="fas fa-shield-alt absolute top-20 left-20 text-cyan-400 text-2xl opacity-20 floating"></i>
+        <i class="fas fa-lock absolute top-32 right-32 text-blue-400 text-xl opacity-15 floating" style="animation-delay: 1s;"></i>
+        <i class="fas fa-key absolute bottom-40 left-40 text-purple-400 text-lg opacity-10 floating" style="animation-delay: 2s;"></i>
+        <i class="fas fa-user-shield absolute bottom-20 right-20 text-cyan-300 text-2xl opacity-20 floating" style="animation-delay: 0.5s;"></i>
+    </div>
+
+    <div class="max-w-6xl w-full mx-auto">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <!-- Left Side - Text Content -->
+            <div class="space-y-8">
+                <!-- Name -->
+                <div>
+                    <h1 class="text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
+                        <span class="text-cyan-400">Darshan</span><br>
+                        <span class="text-slate-200">Soni</span>
+                    </h1>
+                </div>
+                
+                <!-- Title with Typewriter Effect -->
+                <div class="space-y-4">
+                    <div class="typewriter text-2xl lg:text-3xl text-cyan-300 font-medium">
+                        Security & Compliance Analyst
+                    </div>
+                    <div class="text-xl lg:text-2xl text-slate-300 font-light">
+                        AI and Automation Enthusiast
+                    </div>
+                </div>
+                
+                <!-- Decorative Line -->
+                <div class="w-32 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full"></div>
+                
+                <!-- Social Media Icons -->
+                <div class="flex space-x-8 pt-4">
+                    <!-- Twitter -->
+                    <a href="https://x.com/dsoni_in" target="_blank" 
+                       class="social-icon group">
+                        <div class="w-16 h-16 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center shadow-lg hover:shadow-cyan-500/25">
+                            <i class="fab fa-twitter text-white text-2xl group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </a>
+                    
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/dsoni-in" target="_blank" 
+                       class="social-icon group">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg hover:shadow-blue-500/25">
+                            <i class="fab fa-linkedin-in text-white text-2xl group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </a>
+                    
+                    <!-- GitHub -->
+                    <a href="https://github.com/Darry1968" target="_blank" 
+                       class="social-icon group">
+                        <div class="w-16 h-16 bg-gradient-to-br from-slate-600 to-slate-700 rounded-xl flex items-center justify-center shadow-lg hover:shadow-slate-500/25">
+                            <i class="fab fa-github text-white text-2xl group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Right Side - Profile Image -->
+            <div class="flex justify-center lg:justify-end">
+                <div class="relative">
+                    <!-- Glowing Border Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-full blur-lg opacity-75 animate-pulse"></div>
+                    
+                    <!-- Main Image Container -->
+                    <div class="relative glow-border rounded-full p-2 bg-slate-900">
+                        <img src="https://na5hv4r.me/assets/DarshanSoni.jpg" 
+                             alt="Darshan Soni - Security & Compliance Analyst" 
+                             class="w-80 h-80 lg:w-96 lg:h-96 rounded-full object-cover"
+                             onerror="this.src=''; this.alt='Profile image failed to load'; this.parentElement.innerHTML='<div class=\'w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-white text-6xl\'><i class=\'fas fa-user\'></i></div>';">
+                    </div>
+                    
+                    <!-- Security Badge -->
+                    <div class="absolute -bottom-4 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full p-4 shadow-lg">
+                        <i class="fas fa-shield-check text-white text-2xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add smooth hover animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Restart typewriter animation on page load
+            const typewriter = document.querySelector('.typewriter');
+            if (typewriter) {
+                typewriter.style.animation = 'none';
+                typewriter.offsetHeight; // Trigger reflow
+                typewriter.style.animation = 'typing 4s steps(50, end), blink-caret 0.75s step-end infinite';
+            }
+            
+            // Add interactive glow effect to profile image
+            const profileContainer = document.querySelector('.glow-border').parentElement;
+            profileContainer.addEventListener('mouseenter', function() {
+                this.querySelector('.absolute.inset-0').style.opacity = '1';
+            });
+            
+            profileContainer.addEventListener('mouseleave', function() {
+                this.querySelector('.absolute.inset-0').style.opacity = '0.75';
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97ffe3d5c35c7a1c',t:'MTc1ODAyMDczOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
